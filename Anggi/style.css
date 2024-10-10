@@ -1,0 +1,138 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background: #007BFF;
+    color: rgb(18, 87, 70);
+    padding: 10px 0;
+}
+
+.logo {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero section styles */
+.hero-section {
+    background: url('your-background-image.jpg') no-repeat center center/cover;
+    color: rgb(124, 27, 27);
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+}
+
+.hero-content p {
+    font-size: 18px;
+}
+
+/* Section styles */
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+/* Products list styles */
+.produk-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/* Gallery styles */
+.gallery {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 300px; /* Adjust max-width as needed */
+    border-radius: 8px;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #166d79;
+    border-radius: 5px;
+}
+
+/* Button styles */
+.btn {
+    background: #007BFF;
+    color: rgb(58, 119, 143);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #007BFF;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

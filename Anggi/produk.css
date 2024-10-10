@@ -1,0 +1,32 @@
+.produk-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.produk-card {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 300px; /* Sesuaikan ukuran produk */
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.produk-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.produk-description {
+    margin: 10px 0;
+}
+
+.produk-price {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
